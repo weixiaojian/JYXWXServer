@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>快递跟踪</title>
+    <link rel="stylesheet" href="../css/queryScan.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div class="query_wrap" id="query">
+    <!--查询单号-->
+    <div class="search_box">
+        <h2><i>运单号查询</i></h2>
+        <div class="searchInput">
+            <div class="clearboth ">
+                <input id="code" type="tel" name="input" placeholder="请输入运单号" />
+                <a class="code" href="javascript:;" onclick="getScanByCode()"></a>
+            </div>
+            <span class="cancel_hi " >取消</span>
+            <div class="history ">
+                <div class="title_hi"><span>搜索历史</span><img class="delHis"  src="../images/del.png"></img></div>
+                <div class="his_item_box">
+                </div>
+            </div>
+        </div>
+
+        <a class="searchBtn" href="javascript:;" onclick="getScanByCode()">查询</a>
+    </div>
+    <!--广告位-->
+    <!--<div class="swiper-container advert swiper-container-horizontal">
+        <div class="xn_index_mba_1_wrap" id="xn_index_mba_1_wrap">
+            &lt;!&ndash;首页banner&ndash;&gt;
+            <div class="xn_index_mba_1_main">
+                <ul class="xn_index_mba_1_ul">
+                    <li class="xn_index_mba_1_li" lights="0">
+                        <a href="javascript:;"><img src="../images/redPacket.jpg" style="display: block; width:100%;height: 100%;" /></a>
+                    </li>
+                </ul>
+            </div>
+            <div class="xn_index_mba_1_lights"></div>
+
+        </div>
+    </div>-->
+</div>
+</body>
+<script src="../js/jquery-2.2.0.min.js"></script>
+<script src="../js/queryScan.js?v=1.1"></script>
+<script src="../js/common.js"></script>
+</html>

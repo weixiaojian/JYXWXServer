@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>轨迹详情</title>
+    <link rel="stylesheet" href="../css/waybilldetail.css">
+    <link rel="stylesheet" href="../css/common.css">
+</head>
+<body>
+<div id="expressDetail" class="express_detail">
+
+    <input id="code" type="hidden" th:value="${code}">
+
+    <div class="head">
+        <div class="info">
+            <div>
+                <h2></h2>
+                <p><em v-if="usedTime"></em></p>
+                <p class="billCode" th:text="${code}">暂无</p>
+                <p class="smallCode"></p>
+                <p class="className"></p>
+            </div>
+        </div>
+        <!--<div class="tab_status">
+            <span class="btn"></span>
+            <div class="map" style="display:none"></div>
+            <div class="animate">
+                &lt;!&ndash;<img src="${pageContext.request.contextPath }/admin/images/pub/express4.gif" alt="">&ndash;&gt;
+                <div class="progress_bar">
+                    <div class="graph">
+                        <span style="width: 100%;"></span>
+                        <em class="cur" style="left: calc(0% - 7px);"></em>
+                        <em class="true" style="left: calc(25% - 7px);"></em>
+                        <em class="true" style="left: calc(50% - 7px);"></em>
+                        <em class="true" style="left: calc(75% - 7px);"></em>
+                        <em class="cur" style="left: calc(100% - 7px);"></em>
+                    </div>
+                    <div class="word">
+                        <i class="cur"></i>
+                        <i></i>
+                    </div>
+                </div>
+            </div>
+        </div>-->
+    </div>
+
+    <div class="content">
+        <div class="content_box">
+            <div class="item_list" >
+
+            </div>
+            <div class="item_list_two">
+                加载中....
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+<script src="../js/jquery-2.2.0.min.js"></script>
+<script src="../js/waybilldetail.js?v=1.1"></script>
+<script src="../js/common.js"></script>
+</html>

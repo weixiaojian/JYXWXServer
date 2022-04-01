@@ -1,0 +1,163 @@
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+}
+.aboutZto .fixed {
+    padding-bottom: .2rem;
+    background: #ecf3ff;
+}
+header {
+    width: 100%;
+    height: 1.75rem;
+    background: #3e3f43;
+    color: #fff;
+    line-height: 1.75rem;
+    position: relative;
+    font-size: .75rem;
+    background: #4e79e7;
+    position: relative;
+}
+.newsAndEmploy header {
+    display: flex;
+    display: -webkit-flex;
+    width: 100%;
+    height: 1.75rem;
+    background: #4e79e7;
+}
+.newsAndEmploy header a:first-child {
+    background: url(../images/ztonews/back_icon.png) no-repeat center;
+    background-size: auto 55%;
+}
+.newsAndEmploy header a {
+    display: block;
+    width: 15%;
+}
+.newsAndEmploy header p {
+    color: #fff;
+    font-size: .75rem;
+    line-height: 1.75rem;
+    text-align: center;
+    width: 70%;
+}
+.nav_tab {
+    width: 100%;
+    height: 1.5rem;
+    background: #fff;
+    text-align: center;
+}
+.nav_tab .tab_a {
+    display: inline-block;
+    margin: 0 .3rem;
+    padding: 0 .4rem;
+    height: 1.5rem;
+    line-height: 1.5rem;
+    font-size: .555rem;
+    box-sizing: border-box;
+    color: #666;
+}
+.nav_tab .cur {
+    color: #3c72e1;
+}
+.nav_tab .tab_a span {
+    display: block;
+    height: .555rem;
+}
+.nav_tab .tab_a i {
+    display: inline-block;
+    width: .7rem;
+    height: 2px;
+    overflow: hidden;
+    background-color: #fff;
+}
+.nav_tab .cur i {
+    background-color: #3c72e1;
+}
+.page-about {
+    width: 100%;
+    margin-top: 3.45rem;
+}
+.mod {
+    border-bottom: .2rem solid #f2f4f7;
+    padding: .625rem .65rem;
+    background-color: #fff;
+}
+.introduce h3 {
+    background: url(../images/common/aboutzto/intro_26.png) no-repeat;
+    background-size: auto 100%;
+}
+.internet h3 {
+    background: url(../images/common/aboutzto/net_26.png) no-repeat;
+    background-size: auto 100%;
+}
+.culture h3 {
+    background: url(../images/common/aboutzto/culture_28.png) no-repeat;
+    background-size: auto 100%;
+}
+.honor h3 {
+    background: url(../images/common/aboutzto/honor_26.png) no-repeat;
+    background-size: auto 100%;
+}
+.responsibility h3 {
+    background: url(../images/common/aboutzto/zeren_26.png) no-repeat;
+    background-size: auto 100%;
+}
+.care h3 {
+    background: url(../images/common/aboutzto/care_26.png) no-repeat;
+    background-size: auto 100%;
+}
+.mod h3 {
+    font-size: .597rem;
+    color: #3c72e1;
+    padding-left: .9rem;
+    line-height: .7rem;
+}
+.mod .txt-content {
+    width: 13.1rem;
+    margin: 0 auto;
+}
+.mod .txt-content p {
+    font-size: .512rem;
+    font-family: '黑体';
+    text-indent: 1.024rem;
+    margin-top: .6rem;
+    line-height: .7rem;
+}
+.culture .txt-content p {
+    text-indent: 0;
+    line-height: 1.024rem;
+    padding-left: .85rem;
+    background: url(../images/common/aboutzto/item_16.png) no-repeat left .25rem;
+}
+.mod .txt-content p.img-box {
+    text-indent: 0;
+    text-align: center;
+}
+.internet .txt-content p.img-box img {
+    width: 100%;
+    height: 3.575rem;
+}
+.introduce .txt-content p.img-box img {
+    width: 4.16rem;
+    height: 2.55rem;
+}
+.responsibility .txt-content p.img-box img {
+    width: 4.05rem;
+    height: 2.9rem;
+}
+.honor .txt-content p.img-box img {
+    width: auto;
+    height: 4.5rem;
+}
+.txt-content .txt-img{
+    width: 10.2rem;
+    height: 2.2rem;
+    margin-left: 0.5rem;
+}
+.txt-content .txt-img2{
+    width: 10.2rem;
+    height: 5.2rem;
+    margin-left: 0.5rem;
+}
